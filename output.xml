@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.4 on win32)" generated="2025-08-17T18:33:53.079430" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Page" source="t:\vscode\automation\New_folder\login page.robot">
+<test id="s1-t1" name="Radio_button" line="18">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-17T18:33:53.620085" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/loginpagePractise/'.</msg>
+<arg>https://rahulshettyacademy.com/loginpagePractise/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-17T18:33:53.619618" elapsed="3.029985"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-08-17T18:33:56.650625" elapsed="0.029719"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-17T18:34:01.681924" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-17T18:33:56.681058" elapsed="5.001709"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2025-08-17T18:34:01.689149" level="INFO">Selecting 'radio2' from radio button 'radioButton'.</msg>
+<msg time="2025-08-17T18:34:02.229913" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-08-17T18:34:02.230401" level="FAIL">No radio button with name 'radioButton' and value 'radio2' found.</msg>
+<arg>radioButton</arg>
+<arg>radio2</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="FAIL" start="2025-08-17T18:34:01.684070" elapsed="0.554512">No radio button with name 'radioButton' and value 'radio2' found.</status>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<arg>radioButton</arg>
+<arg>radio1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="NOT RUN" start="2025-08-17T18:34:02.242432" elapsed="0.000289"/>
+</kw>
+<status status="FAIL" start="2025-08-17T18:33:53.617482" elapsed="8.625806">No radio button with name 'radioButton' and value 'radio2' found.</status>
+</test>
+<status status="FAIL" start="2025-08-17T18:33:53.087942" elapsed="9.157671"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Page" id="s1" pass="0" fail="1" skip="0">Login Page</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
