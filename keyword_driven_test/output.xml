@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.4 on win32)" generated="2025-08-19T10:31:56.316344" rpa="false" schemaversion="5">
+<suite id="s1" name="Testsuit" source="T:\vscode\automation\robotframework\keyword_driven_test\testsuit.robot">
+<test id="s1-t1" name="ckbox" line="13">
+<kw name="browser_open" type="SETUP">
+<msg time="2025-08-19T10:31:56.618216" level="FAIL">No keyword with name 'browser_open' found.</msg>
+<status status="FAIL" start="2025-08-19T10:31:56.618134" elapsed="0.000141">No keyword with name 'browser_open' found.</status>
+</kw>
+<status status="FAIL" start="2025-08-19T10:31:56.615647" elapsed="0.002911">Setup failed:
+No keyword with name 'browser_open' found.</status>
+</test>
+<test id="s1-t2" name="Radio_button" line="15">
+<kw name="browser_open" type="SETUP">
+<msg time="2025-08-19T10:31:56.620256" level="FAIL">No keyword with name 'browser_open' found.</msg>
+<status status="FAIL" start="2025-08-19T10:31:56.620211" elapsed="0.000086">No keyword with name 'browser_open' found.</status>
+</kw>
+<status status="FAIL" start="2025-08-19T10:31:56.619048" elapsed="0.001425">Setup failed:
+No keyword with name 'browser_open' found.</status>
+</test>
+<status status="FAIL" start="2025-08-19T10:31:56.320121" elapsed="0.301256"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Testsuit" id="s1" pass="0" fail="2" skip="0">Testsuit</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-08-19T10:31:56.614716" level="ERROR">Error in file 'T:\vscode\automation\robotframework\keyword_driven_test\testsuit.robot' on line 3: Resource file 'T:vscodeautomationobotframeworkkeyword_driven_testesources.robot' does not exist.</msg>
+</errors>
+</robot>
