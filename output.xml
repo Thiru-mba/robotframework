@@ -1,51 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3 (Python 3.13.4 on win32)" generated="2025-08-17T18:33:53.079430" rpa="false" schemaversion="5">
-<suite id="s1" name="Login Page" source="t:\vscode\automation\New_folder\login page.robot">
-<test id="s1-t1" name="Radio_button" line="18">
+<robot generator="Robot 7.3 (Python 3.13.4 on win32)" generated="2025-08-19T10:34:58.794763" rpa="false" schemaversion="5">
+<suite id="s1" name="Testsuit" source="t:\vscode\automation\robotframework\keyword_driven_test\testsuit.robot">
+<test id="s1-t1" name="ckbox" line="13">
+<kw name="browser_open" owner="resources" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-08-17T18:33:53.620085" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/loginpagePractise/'.</msg>
-<arg>https://rahulshettyacademy.com/loginpagePractise/</arg>
+<msg time="2025-08-19T10:34:59.090888" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/AutomationPractice/'.</msg>
+<arg>https://rahulshettyacademy.com/AutomationPractice/</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-08-17T18:33:53.619618" elapsed="3.029985"/>
+<status status="PASS" start="2025-08-19T10:34:59.090547" elapsed="14.838313"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-08-17T18:33:56.650625" elapsed="0.029719"/>
+<status status="PASS" start="2025-08-19T10:35:13.929488" elapsed="0.435076"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-08-17T18:34:01.681924" level="INFO">Slept 5 seconds.</msg>
-<arg>5s</arg>
+<msg time="2025-08-19T10:35:17.365935" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-08-17T18:33:56.681058" elapsed="5.001709"/>
+<status status="PASS" start="2025-08-19T10:35:14.364971" elapsed="3.001877"/>
 </kw>
+<status status="PASS" start="2025-08-19T10:34:59.089554" elapsed="18.277646"/>
+</kw>
+<kw name="checkbox" owner="resources">
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>2s</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2025-08-19T10:35:17.369129" elapsed="0.000558"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2025-08-19T10:35:17.371106" level="INFO">Selecting checkbox '//input[@id="checkBoxOption2"]'.</msg>
+<arg>//input[@id="checkBoxOption2"]</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-19T10:35:17.370079" elapsed="13.797089"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2025-08-19T10:35:31.168483" level="INFO">Selecting checkbox '//input[@id="checkBoxOption3"]'.</msg>
+<arg>//input[@id="checkBoxOption3"]</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-19T10:35:31.167793" elapsed="10.225115"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2025-08-19T10:35:41.396670" level="INFO">Selecting checkbox '//input[@id="checkBoxOption1"]'.</msg>
+<arg>//input[@id="checkBoxOption1"]</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-19T10:35:41.395911" elapsed="10.228938"/>
+</kw>
+<kw name="Unselect Checkbox" owner="SeleniumLibrary">
+<msg time="2025-08-19T10:35:51.627294" level="INFO">Unselecting checkbox '//input[@id="checkBoxOption3"]'.</msg>
+<arg>//input[@id="checkBoxOption3"]</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-19T10:35:51.625724" elapsed="10.183636"/>
+</kw>
+<status status="PASS" start="2025-08-19T10:35:17.368418" elapsed="44.442816"/>
+</kw>
+<status status="PASS" start="2025-08-19T10:34:59.088604" elapsed="62.724276"/>
+</test>
+<test id="s1-t2" name="Radio_button" line="15">
+<kw name="browser_open" owner="resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-19T10:36:01.823133" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/AutomationPractice/'.</msg>
+<arg>https://rahulshettyacademy.com/AutomationPractice/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-19T10:36:01.822528" elapsed="16.118481"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-08-19T10:36:17.941901" elapsed="2.066845"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-19T10:36:23.013572" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-19T10:36:20.009436" elapsed="3.004668"/>
+</kw>
+<status status="PASS" start="2025-08-19T10:36:01.820875" elapsed="21.193902"/>
+</kw>
+<kw name="Radio_button" owner="resources">
 <kw name="Select Radio Button" owner="SeleniumLibrary">
-<msg time="2025-08-17T18:34:01.689149" level="INFO">Selecting 'radio2' from radio button 'radioButton'.</msg>
-<msg time="2025-08-17T18:34:02.229913" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2025-08-17T18:34:02.230401" level="FAIL">No radio button with name 'radioButton' and value 'radio2' found.</msg>
+<msg time="2025-08-19T10:36:23.018113" level="INFO">Selecting 'radio2' from radio button 'radioButton'.</msg>
 <arg>radioButton</arg>
 <arg>radio2</arg>
 <doc>Sets the radio button group ``group_name`` to ``value``.</doc>
-<status status="FAIL" start="2025-08-17T18:34:01.684070" elapsed="0.554512">No radio button with name 'radioButton' and value 'radio2' found.</status>
+<status status="PASS" start="2025-08-19T10:36:23.017332" elapsed="6.219727"/>
 </kw>
 <kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2025-08-19T10:36:29.238367" level="INFO">Selecting 'radio1' from radio button 'radioButton'.</msg>
 <arg>radioButton</arg>
 <arg>radio1</arg>
 <doc>Sets the radio button group ``group_name`` to ``value``.</doc>
-<status status="NOT RUN" start="2025-08-17T18:34:02.242432" elapsed="0.000289"/>
+<status status="PASS" start="2025-08-19T10:36:29.237788" elapsed="6.173798"/>
 </kw>
-<status status="FAIL" start="2025-08-17T18:33:53.617482" elapsed="8.625806">No radio button with name 'radioButton' and value 'radio2' found.</status>
+<status status="PASS" start="2025-08-19T10:36:23.016338" elapsed="12.395749"/>
+</kw>
+<status status="PASS" start="2025-08-19T10:36:01.817864" elapsed="33.597627"/>
 </test>
-<status status="FAIL" start="2025-08-17T18:33:53.087942" elapsed="9.157671"/>
+<status status="PASS" start="2025-08-19T10:34:58.800914" elapsed="96.620554"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Login Page" id="s1" pass="0" fail="1" skip="0">Login Page</stat>
+<stat name="Testsuit" id="s1" pass="2" fail="0" skip="0">Testsuit</stat>
 </suite>
 </statistics>
 <errors>
